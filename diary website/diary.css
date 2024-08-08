@@ -1,0 +1,180 @@
+body{
+            
+    background-image: url('pic2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 1400px;
+}
+.diarybox{
+    background-color: rgb(255, 255, 255);
+    height:550px;
+    width: 1000px;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px -3px;
+    margin-left: 16%;
+    margin-top: 5%;
+    
+}
+
+table{
+    height: 100%;
+    width: 100%;
+
+}
+
+#diaryheader{
+    height:40px;
+    background-color: rgb(255, 170, 0);
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px ;
+}
+#a1{
+    display: grid;
+    place-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+}
+#b{
+    height:10%;
+    width:50%;
+}
+
+#blockone{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+#teatareacover{
+    height: 330px;
+    width: 400px;
+    background-color: rgb(255, 235, 190);
+    border-radius: 8px;
+    box-shadow: 0 0 10px -3px ;
+    padding: 20px;
+    color: #a06000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#blocktwo{
+    height:100%;
+    width:50%;
+}
+
+#displaycover{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+#displaydiary{
+    height: 330px;
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    overflow-y: scroll;
+    box-shadow:inset 0 0 10px -2px;
+    padding: 20px;
+    color: #a06000;
+}
+
+#displaydiary::-webkit-scrollbar {
+    width: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 220);
+    box-shadow: inset 0 0 5px -2px;
+    outline: none;
+    border: none;
+}
+
+#save-entry{
+    height: 35px;
+    width: 200px;
+    border: 2px solid #d0a600;
+    background-color: rgb(255, 235, 190);
+    border-radius: 5px;
+    color: #d0a600;
+    font-size: larger;
+}
+#save-entry:hover{
+    box-shadow: 0 0 5px -2px #000000;
+    border: none;
+    color:rgb(255, 235, 190) ;
+    background-color:#d0a600;
+}
+
+.diary-entryy {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+#clear-data{
+    height: 30px;
+    width: 190px;
+    outline: none;
+    border: 1px solid #ff8a63;
+    background-color: #ffddcc;
+    color: red;
+    border-radius: 2px;
+}
+
+#clear-data:hover{
+    color: #fff;
+    background-color: #ff5151;
+    box-shadow: 0 0 5px 0 #ff0000;
+}
+
+#dobox{
+    height:600px;
+    width: 600px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px -3px;
+    margin-left: 16%;
+}
+
+#doh{
+    height:130px;
+    background-color: rgb(255, 170, 0);
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px ;
+    color: #fff;
+    display: grid;
+    place-items: center;
+
+
+}
+
+#dh{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    height:60px;
+}
+
+#dd{
+    background-color: #ffc642;
+    height: 40px;
+    border-radius: 5px;
+    width: 400px;
+    font-size: larger;
+    display: grid;
+    place-items: center;
+    box-shadow: inset 0 0 8px -4px #000000;
+}
+
+#dateday{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger;
+    position: static;
+    margin-top: 5px;
+}

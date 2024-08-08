@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>DIARY</title>
+    <link rel="stylesheet" href="diary.css">
+</head>
+<body >
+    <div class="diarybox" >
+        <table>
+            <tr><td id="diaryheader" colspan="2"><div id="a1"></di><h2 style="color: #fff;">DIARY</h2></div></td></tr>
+            <tr><td id="b"><div id="blockone"><div id="teatareacover">
+                <form id="diary-form" class="df">
+                    <p id="dattoo"></p><br>
+                    <textarea onfocus="saving()" id="page" required></textarea><br><br>
+                    <button type="button" id="save-entry" onclick="save()">SAVE</button>
+                </form>
+            </div></div></td><td id="blocktwo"><div id="displaycover"><div id="displaydiary">
+                <div id="diaryentries">
+                    <!-- Entries will be displayed here -->
+                    <div id="diary-entry">
+                        
+                    </div>
+                </div>
+            </div>
+            <button id="clear-data" onclick="clearData()">Clear Data</button>
+        </td></tr>
+        </table>
+        <br><br><br><br><br><br><br>
+        <!--<div id="dobox">
+            <div id="doh">
+                <div id="dh"><h1>What To Do Today ?</h1></div>
+                <br>
+                <div id="dd"><p id="dateday"></p><button id="clear-data" onclick="dress()">view</button></div>
+            </div>
+            <div id="detail">
+
+
+            </div>
+        </div>-->
+    </div>
+
+    <script src="diary.js"></script>
+    
+</body>
+</html>
